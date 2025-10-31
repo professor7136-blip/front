@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL || 'https://backendwolverine.vercel.app//api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://backendwolverine.vercel.app/api';
 // Get a single product by ID
 export const getProductById = async (id) => {
   try {
